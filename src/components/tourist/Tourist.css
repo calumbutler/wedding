@@ -1,0 +1,65 @@
+.Tourist {
+  width: 100%;
+  height: 100vh;
+}
+
+.TouristSlide{
+  height: 500px;
+  width: 900px;
+  position: relative;
+  left: 0;
+}
+
+
+
+.TouristSlide h3{
+  color: #282c34;
+}
+
+.TouristSlide--castle{
+  background: url(./kilkennycastle.jpg) no-repeat center center;
+  background-size: cover;
+}
+.TouristSlide--butlerhouse{
+  background: url(./butlerhouse.jpg) no-repeat center center;
+  background-size: cover;
+}
+.TouristSlide--cleeres{
+  background: url(./cleeres.jpg) no-repeat center center;
+  background-size: cover;
+}
+.TouristSlide--canices{
+  background: url(./canices.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.TouristSlide--ardmore{
+  background: url(./ardmore.jpg) no-repeat center center;
+  background-size: cover;
+}
+.TouristSlide--woodstock{
+  background: url(./woodstock.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.TouristSlide__text {
+  position: absolute;
+  left: 0;
+  height: calc(100% - 60px);
+  width: 200px;
+  background: rgba(244, 244, 244, 0.7);
+  padding: 30px;
+}
+
+.TouristSlide--woodstock .TouristSlide__text{
+  width: 340px;
+}
+
+.TouristSlide--right .TouristSlide__text {
+   right: 0;
+   left: initial;
+}
+
+.TouristSlide__text p{
+  font-size: 16px;
+}

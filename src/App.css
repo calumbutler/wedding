@@ -7,8 +7,9 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.App__header {
+  background: #282c34 url('./WeddingInvitePaint.png') no-repeat center -140px;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,16 +18,41 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App__nav {
+  width: calc(100% - 120px);
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App__nav--collapsed {
+  height: 0px;
+  transition: height 0.25s;
+}
+
+.App__nav--sticky{
+  position: fixed;
+  color: #282c34;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  background: white;
+  box-shadow: 0 0px 12px 0 rgba(0,0,0,.70);
+  height: 40px;
+}
+
+.App__nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+.App__nav ul li{
+  margin: 0 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.App__nav ul li:hover{
+  text-decoration: underline;
 }

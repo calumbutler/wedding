@@ -1,0 +1,65 @@
+.Accomodation {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Accomodation__title {
+  height: 200px;
+}
+
+.Accomodation__times {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Accomodation__title h1 {
+  color: #282c34 !important;
+}
+
+.Accomodation__section--top h3{
+  margin-top: 0;
+}
+
+.Accomodation__section a {
+  color: #282c34;
+  text-decoration: none;
+}
+
+.Accomodation__section a:hover{
+  text-decoration: underline;
+}
+.Accomodation__section p{
+  font-size: 12px;
+}
+.Accomodation__divided{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.Accomodation__section{
+  color: #282c34;
+  width: 50%;
+}
+
+
+
+.Accomodation__section {
+  width: 300px;
+  margin: 40px 20px;
+  overflow: hidden;
+
+}
+
+.Accomodation__section--top{
+  margin-top: 0px;
+}
+
+.Accomodation__section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
