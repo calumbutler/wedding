@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "c55847f2bf0b135189d6",
-    "url": "/static/css/main.1f96b2d8.chunk.css"
+    "revision": "d34ae080b9a0d7e6224c",
+    "url": "/static/css/main.407d71d1.chunk.css"
   },
   {
-    "revision": "c55847f2bf0b135189d6",
-    "url": "/static/js/main.c55847f2.chunk.js"
+    "revision": "d34ae080b9a0d7e6224c",
+    "url": "/static/js/main.d34ae080.chunk.js"
   },
   {
-    "revision": "182281b96e4353e82c2e",
-    "url": "/static/js/1.182281b9.chunk.js"
+    "revision": "1c47e9351736621d4276",
+    "url": "/static/js/1.1c47e935.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,28 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/OldStandard-Regular.cb974098.ttf"
   },
   {
-    "revision": "11976ea17eb0dc9c8377f6549f4a2432",
-    "url": "/static/media/OldStandard-Bold.11976ea1.ttf"
-  },
-  {
     "revision": "6b56f5551b9f7ca256fd87698dc3d34b",
     "url": "/static/media/OldStandard-Italic.6b56f555.ttf"
   },
   {
+    "revision": "11976ea17eb0dc9c8377f6549f4a2432",
+    "url": "/static/media/OldStandard-Bold.11976ea1.ttf"
+  },
+  {
     "revision": "263db6bbef9d88965b23ece692bb46ed",
     "url": "/static/media/WeddingInvitePaint.263db6bb.png"
-  },
-  {
-    "revision": "286b66ee2e7e01d1294d76a1206994ec",
-    "url": "/static/media/rothe_house.286b66ee.jpg"
-  },
-  {
-    "revision": "a498369de92b9b6dddab81f2d8ad1996",
-    "url": "/static/media/cleers.a498369d.jpg"
-  },
-  {
-    "revision": "1dc7e4928a473e6642180709b20b2c95",
-    "url": "/static/media/anocht.1dc7e492.jpg"
   },
   {
     "revision": "7cca259bdd92bd0bd542c3488e23ff62",
@@ -68,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/ardmore.9bb0d66f.jpg"
   },
   {
-    "revision": "d5bf5cc3b52645ed77df51ec542a746b",
+    "revision": "e027e85b9457f8ab339ae6497425dbf4",
     "url": "/index.html"
   }
 ];
