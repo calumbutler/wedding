@@ -7,7 +7,7 @@ class Travel extends Component {
       <div id="Travel" className="Travel">
         <div className="Travel__title">
           <h1>Getting There</h1>
-      
+          <p>Coming soon</p>
         </div>
       </div>
     );

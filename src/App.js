@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App__header">
-          <h1>Juliet & Calum</h1>
+          <h1>Juliet Van Wagenen & Calum Butler</h1>
           <nav className={navCSS}>
             <ul>
               <li onClick={() => {this.scrollToSection('Wedding')}}>Wedding</li>
