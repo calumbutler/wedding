@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './Wedding.css';
-import rotheHouseJPG from './rothe_house.jpg';
-import cleersJPG from './cleers.jpg';
-import anochtJPG from './anocht.jpg';
 
 class Wedding extends Component {
   render() {
@@ -13,16 +10,13 @@ class Wedding extends Component {
         </div>
         <div className="Wedding__times">
           <div className="Wedding__section">
-            <p>2:30 pm - <a href="http://rothehouse.com/" target="_blank">Rothe House</a></p>
-            {/* <img src={rotheHouseJPG} alt="Rothe House"/> */}
+            <p>Ceremony - <a href="http://rothehouse.com/" target="_blank">Rothe House</a></p>
           </div>
           <div className="Wedding__section">
-            <p>4:30 pm - <a href="http://cleeres.com/" target="_blank">Cleere's Pub</a></p>
-            {/* <img src={cleersJPG} alt="Rothe House"/> */}
+            <p>Cocktail Hour - <a href="https://twitter.com/bollardsbar?lang=en" target="_blank">Bollards Bar</a></p>
           </div>
           <div className="Wedding__section" target="_blank">
-            <p>6:00 pm - <a href="https://anochtrestaurant.ie/">Anocht</a></p>
-            {/* <img src={anochtJPG} alt="Rothe House"/> */}
+            <p>Dinner Reception - <a href="https://anochtrestaurant.ie/" target="_blank">Anocht</a></p>
           </div>
         </div>
       </div>
