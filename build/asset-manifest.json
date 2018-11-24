@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.be0a84f7.chunk.css",
-  "main.js": "/static/js/main.0d1831a7.chunk.js",
-  "main.js.map": "/static/js/main.0d1831a7.chunk.js.map",
+  "main.css": "/static/css/main.1f96b2d8.chunk.css",
+  "main.js": "/static/js/main.c55847f2.chunk.js",
+  "main.js.map": "/static/js/main.c55847f2.chunk.js.map",
   "static/js/1.182281b9.chunk.js": "/static/js/1.182281b9.chunk.js",
   "static/js/1.182281b9.chunk.js.map": "/static/js/1.182281b9.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -12,8 +12,8 @@
   "static/media/cleers.jpg": "/static/media/cleers.a498369d.jpg",
   "static/media/anocht.jpg": "/static/media/anocht.1dc7e492.jpg",
   "static/media/Tourist.css": "/static/media/ardmore.9bb0d66f.jpg",
-  "static/css/main.be0a84f7.chunk.css.map": "/static/css/main.be0a84f7.chunk.css.map",
+  "static/css/main.1f96b2d8.chunk.css.map": "/static/css/main.1f96b2d8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.8b01b83cf9ae8f7a2cfd5c47bb0e38fc.js": "/precache-manifest.8b01b83cf9ae8f7a2cfd5c47bb0e38fc.js",
+  "precache-manifest.ce6ad52dd0a601caa4ed817db0e64afd.js": "/precache-manifest.ce6ad52dd0a601caa4ed817db0e64afd.js",
   "service-worker.js": "/service-worker.js"
 }
