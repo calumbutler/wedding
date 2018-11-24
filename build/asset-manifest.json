@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.be0a84f7.chunk.css",
-  "main.js": "/static/js/main.cdb667cc.chunk.js",
-  "main.js.map": "/static/js/main.cdb667cc.chunk.js.map",
+  "main.js": "/static/js/main.0d1831a7.chunk.js",
+  "main.js.map": "/static/js/main.0d1831a7.chunk.js.map",
   "static/js/1.182281b9.chunk.js": "/static/js/1.182281b9.chunk.js",
   "static/js/1.182281b9.chunk.js.map": "/static/js/1.182281b9.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -14,6 +14,6 @@
   "static/media/Tourist.css": "/static/media/ardmore.9bb0d66f.jpg",
   "static/css/main.be0a84f7.chunk.css.map": "/static/css/main.be0a84f7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.0b3f0dbc1857070fc65e03ad1d366876.js": "/precache-manifest.0b3f0dbc1857070fc65e03ad1d366876.js",
+  "precache-manifest.f5c1cbf907758f901782153e5bcdeff0.js": "/precache-manifest.f5c1cbf907758f901782153e5bcdeff0.js",
   "service-worker.js": "/service-worker.js"
 }
