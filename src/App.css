@@ -57,3 +57,36 @@
 .App__nav ul li:hover{
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+  .App__nav {
+    flex-wrap: wrap;
+    font-size: 14px !important;
+
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .App__nav ul {
+    width: 100%;
+  }
+
+  .App__nav li{
+    margin: 0 8px !important;
+    width: auto;
+  }
+
+  .Accomodation__map {
+    display: none;
+  }
+
+  .App__header h1{
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .Accomodation, .Wedding {
+    height: calc(100vh + 200px) !important;
+  }
+}

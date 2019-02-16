@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Parallax, Background } from 'react-parallax';
+import Mobile from 'is-mobile';
 //components
 import Wedding from './components/wedding/Wedding';
 import Travel from './components/travel/Travel';
@@ -54,7 +55,10 @@ class App extends Component {
       App__nav: true,
       'App__nav--collapsed': this.state.isCollapsed,
       'App__nav--sticky': this.state.isSticky,
-    })
+    }),
+    isMobile = Mobile();
+
+
     return (
       <div className="App">
         <header className="App__header">
@@ -76,35 +80,35 @@ class App extends Component {
             bgImageAlt="the cat"
             strength={200}
         >
-          <Wedding />
+          <Wedding isMobile={isMobile} />
        </Parallax>
 
        <Parallax
            blur={10}
            strength={200}
        >
-         <Accomodation />
+         <Accomodation isMobile={isMobile} />
        </Parallax>
 
         <Parallax
             bgImageAlt="the cat"
             strength={200}
         >
-          <Travel />
+          <Travel isMobile={isMobile} />
         </Parallax>
 
         <Parallax
             blur={10}
             strength={200}
         >
-          <Tourist />
+          <Tourist isMobile={isMobile} />
         </Parallax>
 
         <Parallax
             blur={10}
             strength={200}
         >
-          <Registry />
+          <Registry isMobile={isMobile} />
         </Parallax>
         </div>
       </div>

@@ -32,7 +32,7 @@ class Accomodation extends Component {
               <p>Right in the center of Kilkenny, within walking distance of all venues. Wedding party staying here.</p>
             </div>
           </div>
-          <div>
+          <div className="Accomodation__map">
             <iframe src="https://www.google.com/maps/d/embed?mid=1Bp1NpmkZai2Es1j4OEFq_-h7G_VFH7jM&hl=en" width="640" height="480"></iframe>
           </div>
         </div>
