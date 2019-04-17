@@ -72,11 +72,12 @@
 .rsvp,
 .rsvp:focus{
   color: white;
-
+  text-decoration: underline;
+  font-size: 2em;
 }
 
 .rsvp:hover {
-  font-size: 1.2em;
+  color: #efefef;
 }
 
 
@@ -88,6 +89,17 @@
     padding: 10px 20px;
     width: 100%;
   }
+
+  .App__flex {
+    padding: 1em 0;
+    overflow: hidden;
+    height: 1500px;
+
+  }
+
+   .App__flex body {
+     overflow: visible !importantx;
+   }
 
   .App__nav ul {
     width: 100%;

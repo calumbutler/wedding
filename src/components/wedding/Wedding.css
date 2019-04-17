@@ -1,14 +1,17 @@
 .Wedding {
+  border-top: 10px solid white;
   background: #282c34;
   width: 100%;
   height: 100vh;
-  color: white;
+  color: #282c34;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+
+  background: #282c34;
 }
 .Wedding a {
-  color: white;
+  color: #282c34;
   text-decoration: none;
 }
 
@@ -25,6 +28,18 @@
   justify-content: space-around;
   flex-direction: column;
   align-content: center;
+}
+
+.Wedding__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+
+  width: 600px;
+  margin: 2rem 0;
+
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .Wedding__section {

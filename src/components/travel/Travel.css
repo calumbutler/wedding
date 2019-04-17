@@ -6,6 +6,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  background: url(../../assets/images/invited.jpg) no-repeat center center;
+  background-size: cover;
 
 }
 .Travel__mobile {
