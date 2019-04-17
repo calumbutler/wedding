@@ -58,6 +58,27 @@
   text-decoration: underline;
 }
 
+.App__flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background: url(./assets/images/invited.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.rsvp,
+.rsvp:focus{
+  color: white;
+
+}
+
+.rsvp:hover {
+  font-size: 1.2em;
+}
+
 
 @media screen and (max-width: 500px) and (min-width: 0px) {
   .App__nav {

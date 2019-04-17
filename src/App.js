@@ -9,6 +9,12 @@ import Tourist from './components/tourist/Tourist';
 import Accomodation from './components/accomodation/Accomodation';
 import Registry from './components/registry/Registry';
 import classNames from 'classnames'
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 class App extends Component {
   constructor(props){
@@ -60,59 +66,97 @@ class App extends Component {
 
 
     return (
-      <div className="App">
-        <header className="App__header">
-          <h1>Juliet Van Wagenen & Calum Butler</h1>
-          <nav className={navCSS}>
-            <ul>
-              <li onClick={() => {this.scrollToSection('Wedding')}}>Wedding</li>
-              <li onClick={() => {this.scrollToSection('Accomodation')}}>Where to Stay</li>
-              <li onClick={() => {this.scrollToSection('Travel')}}>Getting There</li>
-              <li onClick={() => {this.scrollToSection('Tourist')}}>What to see</li>
-              <li onClick={() => {this.scrollToSection('Registry')}}>Registry</li>
-            </ul>
-          </nav>
-        </header>
-        <div className="App__body">
+      <Router>
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={() => (
+            <div className="App">
+              <header className="App__header">
+                <h1>Juliet Van Wagenen & Calum Butler</h1>
 
-        <Parallax
-            blur={5}
-            bgImageAlt="the cat"
-            strength={200}
-        >
-          <Wedding isMobile={isMobile} />
-       </Parallax>
+                <Link
+                  to={{ pathname: '/rsvp' }}
+                >
+                  <h3 className="rsvp">RSVP Here</h3>
+                </Link>
+                <nav className={navCSS}>
+                  <ul>
+                    <li onClick={() => {this.scrollToSection('Wedding')}}>Wedding</li>
+                    <li onClick={() => {this.scrollToSection('Accomodation')}}>Where to Stay</li>
+                    <li onClick={() => {this.scrollToSection('Travel')}}>Getting There</li>
+                    <li onClick={() => {this.scrollToSection('Tourist')}}>What to see</li>
+                    <li onClick={() => {this.scrollToSection('Registry')}}>Registry</li>
+                  </ul>
+                </nav>
+              </header>
+              <div className="App__body">
 
-       <Parallax
-           blur={10}
-           strength={200}
-       >
-         <Accomodation isMobile={isMobile} />
-       </Parallax>
+              <Parallax
+                  blur={5}
+                  bgImageAlt="the cat"
+                  strength={200}
+              >
+                <Wedding isMobile={isMobile} />
+             </Parallax>
 
-        <Parallax
-            bgImageAlt="the cat"
-            strength={200}
-        >
-          <Travel isMobile={isMobile} />
-        </Parallax>
+             <Parallax
+                 blur={10}
+                 strength={200}
+             >
+               <Accomodation isMobile={isMobile} />
+             </Parallax>
 
-        <Parallax
-            blur={10}
-            strength={200}
-        >
-          <Tourist isMobile={isMobile} />
-        </Parallax>
+              <Parallax
+                  bgImageAlt="the cat"
+                  strength={200}
+              >
+                <Travel isMobile={isMobile} />
+              </Parallax>
 
-        <Parallax
-            blur={10}
-            strength={200}
-        >
-          <Registry isMobile={isMobile} />
-        </Parallax>
-        </div>
-      </div>
-    );
+              <Parallax
+                  blur={10}
+                  strength={200}
+              >
+                <Tourist isMobile={isMobile} />
+              </Parallax>
+
+              <Parallax
+                  blur={10}
+                  strength={200}
+              >
+                <Registry isMobile={isMobile} />
+              </Parallax>
+              </div>
+            </div>
+          )
+        }
+       />
+       <Route
+        exact
+        path="/rsvp"
+        render={ () => (
+          <div className="App__flex">
+            <iframe
+              title="rsvp"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSc_YctoBgx-dOmmWCvDvMDZwK1N8XFoxuq1zV3tUrQMpfrrKg/viewform?embedded=true"
+              width="640"
+              height="1184"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+            Loading...
+            </iframe>
+          </div>
+        )
+        }
+       />
+
+     </Switch>
+   </Router>
+   );
   }
 }
 
