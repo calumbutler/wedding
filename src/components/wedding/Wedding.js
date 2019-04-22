@@ -11,13 +11,18 @@ class Wedding extends Component {
           </div>
           <div className="Wedding__times">
             <div className="Wedding__section">
-              <p>Ceremony - <a href="http://rothehouse.com/" target="_blank">Rothe House</a></p>
+              <p>Wednesday, June 19th, 2019</p>
+              <br />
+              <p><b>Ceremony</b></p>
+              <p>3pm</p>
+              <p><a href="http://rothehouse.com/" target="_blank">Rothe House Museum and Gardens</a>,
+                <br />16 Parliment St. Kilkenny</p>
             </div>
             <div className="Wedding__section">
-              <p>Cocktail Hour - <a href="https://twitter.com/bollardsbar?lang=en" target="_blank">Bollards Bar</a></p>
+              <p><b>Cocktail hour</b> at <a href="https://twitter.com/bollardsbar?lang=en" target="_blank">Bollards Pub</a> immediately to Follow</p>
             </div>
             <div className="Wedding__section" target="_blank">
-              <p>Dinner Reception - <a href="https://anochtrestaurant.ie/" target="_blank">Anocht</a></p>
+              <p><b>Dinner</b> Served at <a href="https://anochtrestaurant.ie/" target="_blank">Anocht Restaurant</a> at 5:30pm</p>
             </div>
           </div>
         </div>

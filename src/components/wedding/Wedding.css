@@ -12,20 +12,22 @@
 }
 .Wedding a {
   color: #282c34;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
+
 .Wedding a:hover {
+  color: #05689D;
   text-decoration: underline;
 }
 
 .Wedding__title {
-  height: 200px;
+  height: 80px;
 }
 
 .Wedding__times {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: column;
   align-content: center;
 }
@@ -36,15 +38,15 @@
   flex-direction: column;
   align-content: center;
 
-  width: 600px;
+  width: 800px;
   margin: 2rem 0;
 
   background: rgba(255, 255, 255, 0.9);
 }
 
 .Wedding__section {
-  width: 300px;
-  margin: 40px 20px;
+  width: 500px;
+  margin: 10px 20px;
   overflow: hidden;
   align-self: center;
 
