@@ -7,6 +7,7 @@ import Wedding from './components/wedding/Wedding';
 import Travel from './components/travel/Travel';
 import Tourist from './components/tourist/Tourist';
 import Accomodation from './components/accomodation/Accomodation';
+import Activities from './components/activities/Activities';
 import Registry from './components/registry/Registry';
 import classNames from 'classnames'
 import {
@@ -90,6 +91,12 @@ class App extends Component {
                     <li onClick={() => {this.scrollToSection('Registry')}}>Registry</li>
                   </ul>
                 </nav>
+
+                <Link
+                  to={{ pathname: '/activities' }}
+                >
+                  <h4 className="activities">Wedding Week Activities</h4>
+                </Link>
               </header>
               <div className="App__body">
 
@@ -152,6 +159,12 @@ class App extends Component {
           </div>
         )
         }
+       />
+
+       <Route
+        exact
+        path="/activities"
+        render={ () => <Activities />}
        />
 
      </Switch>

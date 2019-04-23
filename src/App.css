@@ -69,15 +69,21 @@
   padding: 1rem;
 }
 
+.activities,
 .rsvp,
+.activities:focus,
 .rsvp:focus{
   color: white;
   text-decoration: underline;
   font-size: 2em;
 }
-
+.activities:hover,
 .rsvp:hover {
   color: #efefef;
+}
+
+.activities{
+  font-size: 1.5em;
 }
 
 

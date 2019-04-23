@@ -1,0 +1,81 @@
+.Activities {
+  height: 100%;
+  width: 100%;
+  background: url(./WeddingInviteBackground.jpg) no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  padding: 40px 0;
+
+  color: white;
+}
+
+.Activities h2 {
+  font-size: 2.3em;
+}
+.Activities h3 {
+  font-size: 2em;
+
+}
+
+.Activities h2,
+.Activities h3 {
+  font-weight: bold;
+}
+
+.Activities__content {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+
+  text-align: center;
+  align-items: center;
+}
+
+.Activities__day {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+}
+
+.Activities__event {
+
+  margin: 35px 0;
+}
+
+
+.Activities hr {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.HR--small {
+  height: 0px;
+  width: 50%;
+  border-width: 0;
+  border: 1px dashed white;
+
+  align-self: center;
+  align-items: center;
+}
+
+.Activities a,
+.Activities a:focus {
+  /*color: #9bfff1;*/
+  color: #abfcf7;
+
+  font-style: italic;
+  text-decoration: none;
+}
+
+.Activities a:hover {
+  color: #dadada;
+  text-decoration: underline;
+}
