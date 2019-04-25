@@ -16,7 +16,7 @@ class Activities extends Component {
             <h3>Monday, June 17th</h3>
             <div className="Activities__event">
               <p><b>3 pm</b></p>
-              <p>Tour of Butler Castle</p>
+              <p>Tour of Kilkenny Castle</p>
               <p><a href="http://kilkennycastle.ie/tickets-and-times/" target="_blank">Ticket Prices and Information</a></p>
             </div>
 
