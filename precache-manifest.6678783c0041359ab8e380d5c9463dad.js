@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3b3fc86c03ecc7312ead",
+    "revision": "83df7fa8361765b0038b",
     "url": "/static/css/main.e6dee6b9.chunk.css"
   },
   {
-    "revision": "3b3fc86c03ecc7312ead",
-    "url": "/static/js/main.3b3fc86c.chunk.js"
+    "revision": "83df7fa8361765b0038b",
+    "url": "/static/js/main.83df7fa8.chunk.js"
   },
   {
     "revision": "da5a8eac38fe3fe27d90",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/static/media/travel.ea48b7fc.pdf"
   },
   {
-    "revision": "cb97409826218fb4c9dc03283ac4d41a",
-    "url": "/static/media/OldStandard-Regular.cb974098.ttf"
-  },
-  {
     "revision": "11976ea17eb0dc9c8377f6549f4a2432",
     "url": "/static/media/OldStandard-Bold.11976ea1.ttf"
+  },
+  {
+    "revision": "cb97409826218fb4c9dc03283ac4d41a",
+    "url": "/static/media/OldStandard-Regular.cb974098.ttf"
   },
   {
     "revision": "6b56f5551b9f7ca256fd87698dc3d34b",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/WeddingInviteBackground.0f6d05a8.jpg"
   },
   {
-    "revision": "2bcb42912210b6f0e3c5b301ab3b4e9d",
+    "revision": "760bbe4ba94894244a194ce072fcda0f",
     "url": "/index.html"
   }
 ];
