@@ -46,7 +46,9 @@ class Travel extends Component {
           }
 
           { props.isMobile
-           && <a href={travelPDF} traget="_blank" download>Download Travel PDF</a>
+           && <div className="Travel__link">
+                <a href={travelPDF} traget="_blank" download>Download Travel PDF</a>
+              </div>
           }
 
 

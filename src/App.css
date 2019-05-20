@@ -128,4 +128,48 @@
   .Accomodation, .Wedding {
     height: calc(100vh + 200px) !important;
   }
+
+  .Wedding .Wedding__section,
+  .Wedding .Wedding__section p{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    font-size: 18px !important;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+
+  .Activities__content {
+    padding: 0 20px;
+  }
+
+  .App__header {
+    background-position: center;
+  }
+
+  .Wedding__content{
+    width: calc(100% - 20px);
+    margin: 0 10px;
+  }
 }

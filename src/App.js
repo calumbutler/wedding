@@ -142,7 +142,7 @@ class App extends Component {
        />
        <Route
         exact
-        path="/rsvp"
+        path={`${process.env.PUBLIC_URL}/rsvp`}
         render={ () => (
           <div className="App__flex">
             <iframe
@@ -163,7 +163,7 @@ class App extends Component {
 
        <Route
         exact
-        path="/activities"
+        path={`${process.env.PUBLIC_URL}/activities`}
         render={ () => <Activities />}
        />
 
