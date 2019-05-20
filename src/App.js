@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Parallax, Background } from 'react-parallax';
 import Mobile from 'is-mobile';
+import { createBrowserHistory } from 'history';
 //components
 import Wedding from './components/wedding/Wedding';
 import Travel from './components/travel/Travel';
@@ -16,6 +17,10 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+
+const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL,
+});
 
 class App extends Component {
   constructor(props){
@@ -67,7 +72,7 @@ class App extends Component {
 
 
     return (
-      <Router>
+      <Router history={history}>
         <Switch>
           <Route
             exact

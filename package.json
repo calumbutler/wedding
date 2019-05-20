@@ -6,6 +6,7 @@
     "@react-pdf/renderer": "^1.1.1",
     "babel-eslint": "^10.0.1",
     "classnames": "^2.2.6",
+    "history": "^4.9.0",
     "is-mobile": "^2.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
